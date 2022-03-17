@@ -453,15 +453,15 @@ a {
     z-index: 1;
     width: 100vw;
     height: 1443px;
-    background-color: #FFFCFC;
+    background-color: #f5eefc;
     overflow: hidden;
   }
   
   .background4 .app {
     position: absolute;
-    left: 27%;
+    left: 25%;
     top: 21%;
-    width: 800px;
+    width: 600px;
     height: auto;
   }
   
@@ -528,7 +528,32 @@ a {
   
   .background4 .graphfront2 span {
     position: absolute;
-    left: 38%;
+    left: 40%;
+    font-size: 30px;
+    font-weight: 300;
+  }
+
+  .background4 .graphback3 {
+    position: absolute;
+    width: 22%;
+    height: 45px;
+    background: #E8E8E8;
+    left: 48%;
+    top: 66%;
+    border-radius: 50px;
+  }
+  
+  .background4 .graphfront3 {
+    position: absolute;
+    width: 60%;
+    height: 45px;
+    background: #e0e9b0;
+    border-radius: 50px;
+  }
+  
+  .background4 .graphfront3 span {
+    position: absolute;
+    left: 48%;
     font-size: 30px;
     font-weight: 300;
   }
